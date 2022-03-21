@@ -1,26 +1,31 @@
 //Declarando uma variavel
-var xoxo;
-
-// let e var ao ser declaradas tem o valor padrão de undefined
 let a;
 var b;
-console.log(a, b);
 
-//O comum é declarar e iniciar com algum valor padrão
-let xoxo = 8;
+//O comum é declarar e inicializar com algum valor padrão
+let xoxo = ":**";
+
+// let e var ao ser declaradas tem o valor padrão de undefined
+console.log(a);
+console.log(b); //undefined
 
 
-// const DEVE ser declarada e inicializada
+// variavel utilizando const DEVE ser declarada e inicializada por padrão
 
 // const c;   // SyntaxError: Missing initializer in const declaration
 const c = 3.1415;
-console.log(c);         
+console.log(c);      
+
+/*
+Objetos (incluindo arrays e funções)  atribuídos a uma const ainda são mutáveis. 
+Usar a declaração const só impede a reatribuição do identificador (nome) da variável.
+*/
 
 //Diferenças entre VAR, LET e CONST
 
 // VAR
 // Pode ser redeclarada
-// Pode ser reasign
+// Pode ter o valor atualizado
 
 // Tem Escopo:
 // Global
@@ -43,3 +48,4 @@ console.log(c);
 // Tem Escopo:
 // De função
 // De bloco
+
