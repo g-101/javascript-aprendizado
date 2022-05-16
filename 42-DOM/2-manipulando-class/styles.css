@@ -1,0 +1,24 @@
+#exemplo {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border: 1px solid rgb(146, 146, 146);
+}
+
+.btGreen {
+    background-color: rgb(58, 224, 7);
+}
+
+.btRed {
+    background-color: rgb(224, 7, 7);
+}
+
+.btBlue {
+    background-color: rgb(21, 7, 224);
+}
+
+button {
+    width: 100px;
+    padding: 10px;
+    margin: 5px;
+}
