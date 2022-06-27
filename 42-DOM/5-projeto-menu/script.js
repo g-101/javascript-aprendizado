@@ -1,5 +1,5 @@
 function changeMenu() {
-    const menuArea = document.getElementById("menu-area");
+    const menuArea = document.querySelector("#menu-area");
     if(menuArea.classList.contains("menu-opened")) {
         
         menuArea.classList.remove("menu-opened"); 
